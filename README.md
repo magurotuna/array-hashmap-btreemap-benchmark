@@ -1,5 +1,6 @@
 # Result
 
+```
 running 1 test
 test array::tests::test_binary_search ... ignored
 
@@ -180,5 +181,5 @@ Search an element/HashMap/UNEXISTENT_ELEMENT
 Found 6 outliers among 100 measurements (6.00%)
   1 (1.00%) low mild
   5 (5.00%) high mild
-
+```
 

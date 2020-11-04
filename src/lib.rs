@@ -1,7 +1,8 @@
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
-}
+mod array;
+mod btreemap;
+mod data;
+mod hashmap;
+
+pub use array::array_contains;
+pub use btreemap::btreemap_contains;
+pub use hashmap::hashmap_contains;
